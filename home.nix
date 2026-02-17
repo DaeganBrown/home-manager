@@ -31,5 +31,12 @@
       userName = "Daegan Brown";
       userEmail = "daeganbrown03@gmail.com";
     };
+    neovim = {
+      enable = true;
+
+      viAlias = true;
+      vimAlias = true;
+      vimdiffAlias = true;
+    };
   };
 }
