@@ -41,6 +41,9 @@
           name = "Daegan Brown";
         };
         init.defaultBranch = "main";
+        extraConfig = {
+          advice.defaultBranchName = false;
+        };
       };
     };
   };
