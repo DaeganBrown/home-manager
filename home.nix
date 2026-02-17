@@ -13,7 +13,7 @@
   ];
 
   # Import config files
-  import = [
+  imports = [
     ./conf/nvim.nix
   ];
 
