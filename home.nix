@@ -36,14 +36,14 @@
       enable = true;
       settings = {
         gpg.format = "ssh";
-        user = {
-          signingkey = "~/.ssh/id_ed25519.pub";
-          email = "149893841+DaeganBrown@users.noreply.github.com";
-          name = "Daegan Brown";
-        };
         init.defaultBranch = "main";
         extraConfig = {
           advice.defaultBranchName = false;
+          user = {
+            signingkey = "~/.ssh/id_ed25519.pub";
+            email = "149893841+DaeganBrown@users.noreply.github.com";
+            name = "Daegan Brown";
+          };
         };
       };
     };
