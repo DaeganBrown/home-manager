@@ -33,8 +33,15 @@
   programs = {
     git = {
       enable = true;
-      userName = "Daegan Brown";
-      userEmail = "daeganbrown03@gmail.com";
+      settings = {
+        gpg.format = "ssh";
+        user = {
+          signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICP8bwplQieJC0/yM621PuzTAbmtVSz3/7LHXruEAqRF";
+          email = "149893841+DaeganBrown@users.noreply.github.com";
+          name = "Daegan Brown";
+        };
+        init.defaultBranch = "main";
+      };
     };
   };
 }
