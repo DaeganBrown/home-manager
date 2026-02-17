@@ -14,7 +14,7 @@
 
   # Import config files
   imports = [
-    ./conf/nvim.nix
+    ./conf
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
