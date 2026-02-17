@@ -12,6 +12,11 @@
     pkgs.hello
   ];
 
+  # Import config files
+  import = [
+    ./conf/nvim.nix
+  ];
+
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
@@ -30,13 +35,6 @@
       enable = true;
       userName = "Daegan Brown";
       userEmail = "daeganbrown03@gmail.com";
-    };
-    neovim = {
-      enable = true;
-
-      viAlias = true;
-      vimAlias = true;
-      vimdiffAlias = true;
     };
   };
 }
