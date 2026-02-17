@@ -32,16 +32,9 @@
 	  neodev-nvim
 
 
-      rnix-lsp
 	  telescope-fzf-native-nvim
 	
-      {
-        plugin = cmp_luasnip;
-      }
 
-      {
-        plugin = cmp-nvim-lsp;
-      }
 
 	  luasnip
 	  friendly-snippets
