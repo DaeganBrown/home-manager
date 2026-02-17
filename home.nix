@@ -31,6 +31,7 @@
 
   # Programs
   programs = {
+    pay-respects.enable = true;
     git = {
       enable = true;
       settings = {
